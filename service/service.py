@@ -31,6 +31,7 @@ class FestivalService:
         """
         Creeam raport privind festivalurile
         """
+    
         lista = self.__repo.returneaza_festivaluri()
         raport = []
         for festival in lista:
@@ -83,6 +84,7 @@ class FestivalService:
             for participant in festival[3]:
                 if participant == participant_dorit:
                     raport.append(festival)
+                    break
 
         return raport
 

@@ -15,9 +15,9 @@ class Festival:
         self.__ticket_cost = ticket_cost
         self.__participants = participants
 
-        """
-        Getteri si setteri pt clasa Festival
-        """
+    """
+    Getteri si setteri pt clasa Festival
+    """
 
     def getName(self):
         return self.__name
